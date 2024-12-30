@@ -18,7 +18,7 @@
         <param name="map_min" value="$(arg map_min)" />
         <param name="map_max" value="$(arg map_max)" />
         <param name="grid_resolution" value="$(arg grid_resolution)" />
-        <param name="num_obstacles" value="60.0" />
+        <param name="num_obstacles" value="30.0" />
         <param name="min_radius" value="0.2" />
         <param name="max_radius" value="0.5" />
     </node>

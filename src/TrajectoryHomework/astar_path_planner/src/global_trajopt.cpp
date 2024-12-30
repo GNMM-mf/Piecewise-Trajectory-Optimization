@@ -1,4 +1,9 @@
-// 功能：对A*规划出的轨迹进行优化（平滑）
+/*
+  Author： Baining Tu
+  Date: 2024-12-30
+  Reference: https://github.com/ZJU-FAST-Lab/GCOPTER
+*/ 
+
 
 #include <iostream>
 #include <vector>
@@ -35,14 +40,6 @@ public:
 
         // your code
 };
-*/
-
-/*
-TODO 
-3. 打印优化前后轨迹速度加速的图线（用rqt_plot在线打印而不是matplotlib离线打印）
-    目前完成，但是加加速度不是很连续 
-4. 有时间的话考虑动态避障碍
-    继续
 */
 
 

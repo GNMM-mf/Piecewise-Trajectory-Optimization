@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- 启动轨迹优化节点-->
+    <!-- your code-->
+    <node pkg="astar_path_planner" type="global_trajopt" name="global_trajopt_node" output="screen">
+        <rosparam file="$(find astar_path_planner)/config/global_trajopt.yaml" command="load" />
+    </node>
+
+</launch>
